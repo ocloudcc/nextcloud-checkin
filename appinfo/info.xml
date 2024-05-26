@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<info>
+    <id>checkin</id>
+    <name>Daily Check-in</name>
+    <description>Check-in daily to earn extra storage space.</description>
+    <version>1.0.0</version>
+    <licence>AGPL</licence>
+    <author>oCloud cc</author>
+    <dependencies>
+        <nextcloud min-version="18" max-version="28"/>
+    </dependencies>
+    <namespace>Checkin</namespace>
+	<navigations>
+		<navigation>
+			<id>checkin</id>
+			<name>Checkin</name>
+			<route>checkin.page.index</route>
+			<icon>checkin.png</icon>
+			<order>10</order>
+		</navigation>
+	</navigations>
+</info>
